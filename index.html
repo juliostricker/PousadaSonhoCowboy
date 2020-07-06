@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- INÍCIO DO HEAD -->
+<head>
+    <title>Sonho do Cowboy - Fotos</title>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo.css" type="text/css">
+	  <link rel="stylesheet" href="_css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	  <!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	  <![endif]-->
+</head>
+<!-- INÍCIO DO BODY -->
+<body>
+    <header>
+        <div id="esquerda">
+          <a href="index.html">
+            <img src="_img/logo.png" alt="">
+          </a>
+          <span>
+            <img src="_img/titulo.png" alt="">
+          </span>
+        </div>
+        <div id="direita" class="centralizado">
+          <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+            <img src="_img/menu.png">
+          </a>
+          <nav id="menu">
+            <ul>
+              <li class="ativo"><a href="#"><i class="fas fa-home"></i> &nbsp;Início</a></li>
+              <li><a href="fotos.html"><i class="fas fa-camera-retro"></i> &nbsp;Fotos</a></li>
+              <li><a href="localizacao.html"><i class="fas fa-map-marked-alt"></i> &nbsp;Localização</a></li>
+              <li><a href="contato.html"><i class="fas fa-user-tie"></i> &nbsp;Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <div id="galeria" class="centralizado">
+      <img src="_img/gal_img01.jpg" alt="">
+    </div>
+    <div id="bemvindo"></div>
+    <div id="mensagem">
+      <p>Com ambiente familiar, oferecemos a você um espaço tematizado para desfrutar seus momentos de descanso. Estamos localizados a 700 metros do Parque Beto Carrero World e próximo às principais praias de Penha. Estão disponíveis amplas suítes que proporcionam muito conforto, equipadas com ar condicionado quente/frio, frigobar, Smart TV, espelho, toalhas, cobertas, travesseiros, café da manhã, WiFi e estacionamento privativo.</p>
+      <p>Estamos à sua disposição, entre em contato para mais informações:</p>
+    </div>
+    <footer class="centralizado">
+      <div>
+        <a href="https://api.whatsapp.com/send?phone=554792335110"><img src="_img/telefone.jpg" alt=""></a>
+      </div>
+      <div>
+        <a href="mailto:recepcao.pousadasonhodocowboy@gmail.com"><img src="_img/email.jpg" alt=""></a>
+      </div>
+    </footer>
+    <div id="copyright">
+      <h5>&copy; 2020 - Todos os direitos reservados</h5>
+    </div>
+
+    <script>
+      function myMenu() {
+        var x = document.getElementById("menu");
+        if (x.style.transform === "translateX(0)") {
+          x.style.transform = "translateX(-100%)";
+        } else {
+          x.style.transform = "translateX(0)";
+        }
+      }
+    </script>
+</body>
+</html>

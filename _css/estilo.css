@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.centralizado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marrom{
+  background: #1D0E05;
+}
+/*==========================MONITOR==========================*/
+body{
+  background: #1D0E05;
+}
+header{
+  margin: 0 auto;
+  max-width: 900px;
+  height: 100px;
+  background: red;
+  display: flex;
+  background: url(../_img/bg_titulo.jpg) center no-repeat;
+  background-size: cover;
+}
+#esquerda img{
+  height: 90px;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+#esquerda span img{
+  display: none;
+}
+#direita img{
+  display: none;
+  z-index: 10;
+}
+#galeria{
+  max-width: 900px;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#galeria img{
+  height: 150%;
+}
+#bemvindo{
+  max-width: 900px;
+  margin: 0 auto;
+  height: 150px;
+  background: url(../_img/divisor1.jpg) no-repeat center, url(../_img/bg_titulo.jpg) no-repeat;
+  background-size: auto 115%, cover;
+  border-bottom: 3px solid #1D0E05;
+}
+#mensagem{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: arial, sans-serif;
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 1.4em;
+  font-size: 1.4em;
+  background: url(../_img/bg.jpg) center no-repeat;
+  background-size: cover;
+}
+footer{
+  background-color: #1D0E05;
+  width: 100%;
+  overflow: hidden;
+}
+footer img{
+  height: 55px;
+}
+#copyright{
+  clear: both;
+  background: #F7EDE3;
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #1D0E05;
+}
+/*==== MENU > MONITOR =====*/
+#direita{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: calc(100% - 90px);
+  margin-right: 20px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  border: 1px solid rgba(29, 14, 5, .5);
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: rgba(29, 14, 5, .5);
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .8);
+}
+nav ul li.ativo{
+  border-top-color: rgba(252, 219, 20,.8);
+  border-bottom-color: rgba(252, 219, 20,.8);
+}
+nav ul li:hover{
+  border-top-color: rgba(255,102,0,.5);
+  border-bottom-color: rgba(255,102,0,.5);
+}
+nav ul li:hover > a{
+  color: yellow;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+}
+/*==========================CELULAR==========================*/
+@media(max-width: 600px){
+/*==== MENU > CELULAR =====*/
+  #menu{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: url(../_img/bg_menu.jpg) no-repeat;
+    background-size: 100% 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition-duration: 1s;
+  }
+  nav ul{
+    margin: 50% 20px auto 20px;
+  }
+  nav ul li{
+    display: block;
+    border: 1px solid rgba(0,0,0, .5);
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: rgba(0,0,0, .5);
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 15px;
+    box-shadow: none;
+  }
+  nav ul li.ativo{
+    border-top-color: rgba(0,0,0, .5);
+    border-bottom-color: rgba(0,0,0, .5);
+  }
+/*==== Conteúdo > CELULAR =====*/
+  body{
+    max-width: 600px;
+    min-width: 350px;
+  }
+  header{
+    background-image: url(../_img/bg_titulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    display: flex;
+  }
+  #esquerda{
+    height: 60px;
+    width: calc(100% - 50px);
+    display: flex;
+    align-items: center;
+  }
+  #esquerda a img{
+    height: 56px;
+    margin-top: 2px;
+    margin-left: 10px;
+  }
+  #esquerda span img{
+    height: 30px;
+    margin-left: 20px;
+    display: inherit;
+  }
+  #direita{
+    width: 60px;
+    height: 60px;
+  }
+  #direita a img{
+    margin-top: 4px;
+    height: 30px;
+    display: inherit;
+    z-index: 10;
+  }
+  #galeria{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  #galeria img{
+    height: 120%;
+  }
+  #bemvindo{
+    width: 100%;
+    height: 100px;
+    background: url(../_img/divisor1.jpg) center;
+    background-size: cover;
+  }
+  #mensagem{
+    width: 100%;
+    padding: 20px;
+    font-family: arial, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.4em;
+    background: url(../_img/bg.jpg) center no-repeat;
+    background-size: cover;
+    font-size: 1.0em;
+  }
+  footer{
+    background-color: #1D0E05;
+    width: 100%;
+    overflow: hidden;
+  }
+  footer img{
+    height: 55px;
+  }
+  #copyright{
+    clear: both;
+    background: #F7EDE3;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+  }
+}
