@@ -2,20 +2,20 @@
 # POUSADA SONHO DO COWBOY
 
 **:hammer_and_wrench: Solicitações do Cliente:**
-##### SITE
+##### :red_square:SITE
 - [x] Responsivo
-##### HOME
+##### :orange_square:HOME
 - [x] Nav + Galeria + Boas Vindas + WhatsApp e Mail
-##### FOTOS
+##### :yellow_square:FOTOS
 - [ ] Propriedade (fachada e áreas comuns)
 - [ ] Quartos
 - [ ] Café da Manhã
-##### LOCALIZAÇÃO
+##### :green_square:LOCALIZAÇÃO
 - [ ] Imagem GoogleMaps
 - [ ] Endereço Escrito
 - [ ] Link Waze + GoogleGPS
 - [ ] WhatsApp
-##### CONTATO
+##### :blue_square:CONTATO
 - [ ] Formulário SAC
 - [ ] Fone, Cel, E-mail.
 
