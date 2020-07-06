@@ -3,20 +3,20 @@
 
 **- Solicitações do Cliente:**
 ##### SITE
--[x] Responsivo
+- [x] Responsivo
 ##### HOME
--[x] Nav + Galeria + Boas Vindas + WhatsApp e Mail
+- [x] Nav + Galeria + Boas Vindas + WhatsApp e Mail
 ##### FOTOS
--[ ] Propriedade (fachada e áreas comuns)
--[ ] Quartos
--[ ] Café da Manhã
+- [ ] Propriedade (fachada e áreas comuns)
+- [ ] Quartos
+- [ ] Café da Manhã
 ##### LOCALIZAÇÃO
--[ ] Imagem GoogleMaps
--[ ] Endereço Escrito
--[ ] Link Waze + GoogleGPS
--[ ] WhatsApp
+- [ ] Imagem GoogleMaps
+- [ ] Endereço Escrito
+- [ ] Link Waze + GoogleGPS
+- [ ] WhatsApp
 ##### CONTATO
--[ ] Formulário SAC
--[ ] Fone, Cel, E-mail.
+- [ ] Formulário SAC
+- [ ] Fone, Cel, E-mail.
 
 *Previsão de término (30/07/20)*
