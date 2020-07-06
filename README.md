@@ -1,7 +1,7 @@
 ### :construction: Site em desenvolvimento para a empresa
 # POUSADA SONHO DO COWBOY
 
-**:wrench: Solicitações do Cliente:**
+**:hammer_and_wrench: Solicitações do Cliente:**
 ##### SITE
 - [x] Responsivo
 ##### HOME
