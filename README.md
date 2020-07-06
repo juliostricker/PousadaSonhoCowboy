@@ -1,7 +1,7 @@
-### Site em desenvolvimento para a empresa
+### :construction: Site em desenvolvimento para a empresa
 # POUSADA SONHO DO COWBOY
 
-**- Solicitações do Cliente:**
+**:wrench: Solicitações do Cliente:**
 ##### SITE
 - [x] Responsivo
 ##### HOME
@@ -19,4 +19,4 @@
 - [ ] Formulário SAC
 - [ ] Fone, Cel, E-mail.
 
-*Previsão de término (30/07/20)*
+*:date: Previsão de término (30/07/20)*
