@@ -1,6 +1,21 @@
-Site em desenvolvimento para a empresa
-SONHO DO COWBOY
+### Site em desenvolvimento para a empresa
+# POUSADA SONHO DO COWBOY
 
+**- Solicitações do Cliente:**
 :: Responsivo
+:: HOME
+    -[x] Nav + Galeria + Boas Vindas + WhatsApp e Mail
+:: FOTOS
+    -[ ] Propriedade (fachada e áreas comuns)
+    -[ ] Quartos
+    -[ ] Café da Manhã
+:: LOCALIZAÇÃO
+    -[ ] Imagem GoogleMaps
+    -[ ] Endereço Escrito
+    -[ ] Link Waze + GoogleGPS
+    -[ ] WhatsApp
+:: CONTATO
+    -[ ] Formulário SAC
+    -[ ] Fone, Cel, E-mail.
 
-Previsão de término (30/07/20)
+*Previsão de término (30/07/20)*
