@@ -4,6 +4,7 @@
 **:hammer_and_wrench: Solicitações do Cliente:**
 ##### :red_square:SITE
 - [x] Responsivo
+- [x] Menu Responsivo (java) com acesso a redes sociais e contato
 ##### :orange_square:HOME
 - [x] Nav + Galeria + Boas Vindas + WhatsApp e Mail
 ##### :yellow_square:FOTOS
