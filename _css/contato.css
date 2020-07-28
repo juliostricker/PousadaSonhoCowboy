@@ -1,6 +1,57 @@
-#conteudo-contato{
-  margin: 0 auto;
-  background: green;
-  max-width: 900px;
-  height: 600px;
+#atender{
+  width: 100%;
+  background: #291405;
+  color: yellow;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+#atender p{
+  margin: 0;
+  display: inline;
+}
+fieldset{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #291405;
+  border-radius: 5px;
+  color: #291405;
+  text-align: center;
+}
+label{
+  display: block;
+  cursor:pointer;
+  margin: 15px 0 0 0;
+  text-align: left;
+  text-indent: 0;
+}
+input{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #291405;
+  text-indent: 15px;
+  border-radius: 5px;
+}
+input::-webkit-input-placeholder{
+  color: rgb(220,220,220);
+}
+#mensagem textarea{
+  background-color: white;
+  background-image: none;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #291405;
+  text-indent: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+button{
+  width: 100%;
+  padding: 15px 0;
+  border:none;
+  border-radius: 5px;
+  background: #291405;
+  color: yellow;
+  cursor: pointer;
 }

@@ -2,18 +2,20 @@
 <html lang="pt-BR">
 <!-- INÍCIO DO HEAD -->
 <head>
-    <title>Sonho do Cowboy - Fotos</title>
+    <title>Sonho do Cowboy - Localização</title>
     <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="_css/estilo.css" type="text/css">
-    <link rel="stylesheet" href="_css/localizacao.css" type="text/css">
+    
 	  <link rel="stylesheet" href="_css/normalize.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="_css/local.css" type="text/css">
 	  <!--[if lt IE 9]>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
 	  <![endif]-->
 </head>
-<!-- INÍCIO DO BODY -->
+
 <body>
     <header>
         <div id="esquerda">
@@ -25,20 +27,65 @@
           </span>
         </div>
         <div id="direita" class="centralizado">
-          <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+          <a href="javascript:void(0);" class="icon" onclick="document.getElementById('menu').style.transform = 'translateX(0)'">
             <img src="_img/menu.png">
           </a>
+          
           <nav id="menu">
+            <div id="btn_fechar_celuar">
+              <a class="icon" onclick="document.getElementById('menu').style.transform = 'translateX(-100%)'"><i class="fas fa-times"></i></a>
+            </div>
             <ul>
               <li><a href="index.html"><i class="fas fa-home"></i> &nbsp;Início</a></li>
               <li><a href="fotos.html"><i class="fas fa-camera-retro"></i> &nbsp;Fotos</a></li>
               <li class="ativo"><a href="#"><i class="fas fa-map-marked-alt"></i> &nbsp;Localização</a></li>
               <li><a href="contato.html"><i class="fas fa-user-tie"></i> &nbsp;Contato</a></li>
             </ul>
+            <div id="redes-menu-celular">
+              <div id="fundo">
+                <p>Estamos sempre prontos para lhe atender...</p>
+                <div>
+                  <a href="https://www.facebook.com/psonhodocowboy" title="FACEBOOK: Curta nosso Facebook =)"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/pousadasonhodocowboy" title="INSTAGRAM: Veja as últimas novidades"><i class="fab fa-instagram"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=554792335110" title="TWETTER: Acompanhe nossas promoções"><i class="fab fa-whatsapp"></i></a>
+                  <a href="mailto:recepcao.pousadasonhodocowboy@gmail.com" title="E-MAIL: Mande um E-mail pra gente ;-)"><i class="fas fa-envelope-open-text"></i></a>
+                </div>
+              </div>
+            </div>
           </nav>
+          
         </div>
     </header>
-    <div id="conteudo-localizacao"></div>
+    <!-- Início LOCALIZAÇÃO -->
+    <div id="localizador">
+
+      <div id="maps">
+        <a href="https://www.google.com.br/maps/place/Pousada+Sonho+do+Cowboy/@-26.7929406,-48.61287,17z/data=!3m1!4b1!4m8!3m7!1s0x94d8d15f0fa6f84d:0xaa7137ba3dd7eec2!5m2!4m1!1i2!8m2!3d-26.7929454!4d-48.6106813">
+            <h4>Google Maps </h4>
+            <img src="_img/ico_maps.png" width="50px">
+        </a>
+      </div>
+
+      <div id="waze">
+        <a href="https://www.waze.com/pt-BR/livemap/directions/brasil/santa-catarina/pousada-sonho-do-cowboy?place=ChIJTfimD1_R2JQRwu7XPbo3cao&utm_expid=.K6QI8s_pTz6FfRdYRPpI3A.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F">
+          <img src="_img/ico_waze.png" width="50px">
+          <h4> Waze</h4>
+        </a>
+      </div>
+
+    </div>
+    <div id="mensagem">
+      <p class="citar">Cituada em Penha/SC, estamos a 700m do maior parque da América Latina e a 300m da praia.</p>
+      <p>A pousada Sonho do Cowboy é o seu ponto central para iniciar inúmeras possibilidades de aventuras em toda nossa região. Conte com nossa equipe treinada para lhe orientar como aproveitar ao máximo sua estadia.</p>
+    </div>
+    <div id="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.4768685345034!2d-48.61286998441289!3d-26.792940594673844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8d15f0fa6f84d%3A0xaa7137ba3dd7eec2!2sPousada%20Sonho%20do%20Cowboy!5e0!3m2!1spt-BR!2sbr!4v1595883582225!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+    <div id="endereco">
+      <p>
+        Rua João Marino Furtado - Armação - Penha - SC - CEP: 88385-000
+      </p>
+    </div>
+    
     <footer class="centralizado">
       <div>
         <a href="https://api.whatsapp.com/send?phone=554792335110"><img src="_img/telefone.jpg" alt=""></a>
@@ -50,16 +97,8 @@
     <div id="copyright">
       <h5>&copy; 2020 - Todos os direitos reservados</h5>
     </div>
-
-    <script>
-      function myMenu() {
-        var x = document.getElementById("menu");
-        if (x.style.transform === "translateX(0)") {
-          x.style.transform = "translateX(-100%)";
-        } else {
-          x.style.transform = "translateX(0)";
-        }
-      }
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -34,7 +34,6 @@ header{
   margin: 0 auto;
   max-width: 900px;
   height: 100px;
-  background: red;
   display: flex;
   background: url(../_img/bg_titulo.jpg) center no-repeat;
   background-size: cover;
@@ -130,7 +129,7 @@ nav ul li{
   display: inline-block;
   border: 1px solid rgba(29, 14, 5, .5);
   border-radius: 5px;
-  width: 150px;
+  width: 130px;
   height: 50px;
   text-align: center;
   line-height: 50px;
@@ -171,7 +170,7 @@ nav ul li a{
     background: url(../_img/bg_menu.jpg) no-repeat;
     background-size: 100% 100%;
     top: 0;
-    left: 0;
+    right: 0;
     transform: translateX(-100%);
     transition-duration: 1s;
     z-index: 50;
@@ -209,10 +208,7 @@ nav ul li a{
     margin-top: 15px;
     box-shadow: none;
   }
-  nav ul li.ativo{
-    border-top-color: rgba(0,0,0, .5);
-    border-bottom-color: rgba(0,0,0, .5);
-  }
+
 /*==== Conteúdo > CELULAR =====*/
   body{
     max-width: 600px;
@@ -226,6 +222,7 @@ nav ul li a{
     height: 60px;
     display: flex;
   }
+
   #esquerda{
     height: 60px;
     width: calc(100% - 50px);
@@ -293,6 +290,7 @@ nav ul li a{
     background-color: #1D0E05;
     width: 100%;
     overflow: hidden;
+    border-top: 1px solid yellow;
   }
   footer img{
     height: 55px;
@@ -322,5 +320,10 @@ nav ul li a{
   }
   #redes-menu-celular{
     display:block;
+  }
+  nav ul li.ativo{
+    border-top-color: rgba(0,0,0, .5);
+    border-bottom-color: rgba(0,0,0, .5);
+    background: black;
   }
 }
