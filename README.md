@@ -12,12 +12,12 @@
 - [ ] Quartos
 - [ ] Café da Manhã
 ##### :green_square:LOCALIZAÇÃO
-- [ ] Imagem GoogleMaps
-- [ ] Endereço Escrito
-- [ ] Link Waze + GoogleGPS
-- [ ] WhatsApp
+- [x] Imagem GoogleMaps
+- [x] Endereço Escrito
+- [x] Link Waze + GoogleGPS
+- [x] WhatsApp
 ##### :blue_square:CONTATO
-- [ ] Formulário SAC
-- [ ] Fone, Cel, E-mail.
+- [x] Formulário SAC
+- [x] Fone, Cel, E-mail.
 
 *:date: Previsão de término (30/07/20)*
